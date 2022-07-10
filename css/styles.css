@@ -1,0 +1,44 @@
+/* цвет основного текста #212121 */
+/* вторичній текст #757575*/
+/* белій #FFFFFF*/
+/* акцент #2196F3 */
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+body {background-color: var(--primary-white-color);
+    color: var(--primary-text-color) ;
+    
+}
+.list {
+    list-style: none;
+}
+.logo {
+    color: #000000;
+}
+.logo:hover {
+    color: var(--accent-color);
+}
+/* site nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+.site-nav .link:focus,
+.site-nav .link:hover {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+/* hero */
+.hero-title {
+    background-color: #2F303A ;
+    color: var(--primary-white-color);
+}
+
+/* section */
+.section-title {}
+
+/* features */
