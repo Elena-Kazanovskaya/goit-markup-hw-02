@@ -13,9 +13,8 @@
 body {background-color: var(--primary-white-color);
     color: var(--primary-text-color) ;
     font-family: Roboto, sans-serif;
-    font-size: px;
-    letter-spacing: 0.06em;
-        
+    letter-spacing: 0.03em;
+           
 }
 .list {
     list-style: none;
@@ -23,6 +22,9 @@ body {background-color: var(--primary-white-color);
 .logo {
     color: #000000;
     font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
 }
 .logo:hover {
     color: var(--accent-color);
@@ -33,6 +35,10 @@ body {background-color: var(--primary-white-color);
 /* site nav */
 .site-nav .link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:focus,
 .site-nav .link:hover {
@@ -49,27 +55,76 @@ body {background-color: var(--primary-white-color);
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    
+    letter-spacing: 0.06em;
 }
 
 /* section */
 .section-title {
-    color: 
+    color:var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 /* features */
-.feature-list .title {
-    color: 
+.features-list .title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
+.features-list .text {
+    color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* team */
+.team-list .title {
+    color: var(--primary-text-color)
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+
+}
+
+.team-list .text {
+    color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+
+}
 /* Examples */
 .work-list .title {
-    color: 
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
 }
-/* Foter */
+
+.work-list .text {
+    color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+/* Footer */
+
 .address-list .link {
     color: var(--primary-white-color);
-    background-color: #2F303A;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address-list:hover,
+.address-list:focus {
+    color: 
 }
 
 /* Button */
@@ -77,7 +132,13 @@ body {background-color: var(--primary-white-color);
     color: ;
     background-color: ;
     cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
+
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
