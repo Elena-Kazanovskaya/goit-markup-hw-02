@@ -114,6 +114,10 @@ body {background-color: var(--primary-white-color);
     line-height: 1.88;
 }
 /* Footer */
+.address-list {
+    background-color: #2F303A;
+}
+
 
 .address-list .link {
     color: var(--primary-white-color);
@@ -122,9 +126,9 @@ body {background-color: var(--primary-white-color);
     line-height: 1.71;
 }
 
-.address-list:hover,
-.address-list:focus {
-    color: 
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--accent-color)
 }
 
 /* Button */
